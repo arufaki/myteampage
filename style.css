@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-description {
+  margin-top: 80px;
+}
+
+.header-description h2 {
+  margin: 45px 0 15px;
+}
+
+.crew-img p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  padding-top: 15px;
+}
+
+.specialist {
+  font-family: "PT Serif", serif;
+  font-size: 10px;
+  font-weight: 400;
+  writing-mode: vertical-rl;
+}
+
+.crew-img img {
+  max-width: 100%;
+}
+
+.master-crew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list-crew {
+  max-width: 47%;
+  display: flex;
+}
+
+main {
+  margin: 60px 0;
+}
+
+.list-crew:nth-child(even) {
+  padding-top: 50px;
+}
+
+footer {
+  margin-top: 150px;
+}
+
+footer p {
+  font-family: "monserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+a {
+  font-family: "monserrat", sans-serif;
+  font-weight: 700;
+  color: #bdbdbd;
+}
